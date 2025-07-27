@@ -61,3 +61,20 @@ public class EmergencyPriorityQueue {
         er.displayPatients();
     }
 }
+
+---OUTPUT---
+Add Patient: Alice - Time: 730900 ns, Complexity: O(log n)
+Add Patient: Bob - Time: 8100 ns, Complexity: O(log n)
+Add Patient: Charlie - Time: 1700 ns, Complexity: O(log n)
+
+Bob (Severity: 5)
+Charlie (Severity: 3)
+Alice (Severity: 2)
+Display Patients - Time: 8020600 ns, Complexity: O(n log n)
+
+Treating: Bob (Severity: 5)
+Get Next Patient - Time: 493600 ns, Complexity: O(log n)
+
+Charlie (Severity: 3)
+Alice (Severity: 2)
+Display Patients - Time: 63700 ns, Complexity: O(n log n)
